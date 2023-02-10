@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.body{
+  width: 100%;
+
+      &__container{
+
+        &__img{
+          width: 120px;
+          margin-top: 25%;
+          padding-left: 15%;
+          position: relative;
+        }
+
+        #gato{
+          
+        }
+        #perro:hover{
+          animation-name: carrera;
+          animation-duration: 4s;
+          animation-iteration-count: infinite; 
+        }
+
+        #fondo{
+          position: absolute;
+          
+        }
+        
+        
+      }
+
+}
+
+@keyframes carrera {
+  /*prueba*/
+  0%   {right:0px; }
+  25%  {right:200px;}
+  50%  {right:200px;}
+  75%  {right:0px;}
+  100% {right:0px;}
+   
+}
+    
+
+
+
+
+
